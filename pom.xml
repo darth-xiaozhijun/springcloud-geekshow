@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>springcloud-provider-payment</module>
+        <module>springcloud-provider-payment2</module>
         <module>springcloud-consumer-order</module>
         <module>springcloud-api-commons</module>
         <module>springcloud-eureka-server</module>
