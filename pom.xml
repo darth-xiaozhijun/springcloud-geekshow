@@ -11,6 +11,7 @@
         <module>springcloud-provider-payment</module>
         <module>springcloud-consumer-order</module>
         <module>springcloud-api-commons</module>
+        <module>springcloud-eureka-server</module>
     </modules>
     <packaging>pom</packaging>
 
