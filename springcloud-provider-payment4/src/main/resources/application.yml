@@ -1,0 +1,19 @@
+server:
+  port: 8004
+
+spring:
+  application:
+    name: springcloud-provider-payment
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource # 当前数据源操作类型
+    driver-class-name: com.mysql.cj.jdbc.Driver # mysql驱动包
+    url: jdbc:mysql://localhost:3306/springcloud-geekshow?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+    username: root
+    password: 123456
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
+
+mybatis:
+  mapperLocations: classpath:mapper/*.xml
+  type-aliases-package: com.geekshow.springcloud.entities    # 所有Entity别名类所在包

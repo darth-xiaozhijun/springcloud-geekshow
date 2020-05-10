@@ -10,6 +10,7 @@
     <modules>
         <module>springcloud-provider-payment</module>
         <module>springcloud-provider-payment2</module>
+        <module>springcloud-provider-payment4</module>
         <module>springcloud-consumer-order</module>
         <module>springcloud-api-commons</module>
         <module>springcloud-eureka-server</module>
