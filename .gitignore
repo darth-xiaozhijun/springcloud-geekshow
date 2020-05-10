@@ -1,0 +1,4 @@
+# Project exclude paths
+/springcloud-api-commons/target/
+/springcloud-consumer-order/target/
+/springcloud-provider-payment/target/
