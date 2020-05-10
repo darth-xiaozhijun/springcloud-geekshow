@@ -12,7 +12,14 @@
         <module>springcloud-consumer-order</module>
         <module>springcloud-api-commons</module>
         <module>springcloud-eureka-server</module>
+        <module>springcloud-eureka-server2</module>
     </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+        </dependency>
+    </dependencies>
     <packaging>pom</packaging>
 
     <!--  统一管理jar包版本-->
