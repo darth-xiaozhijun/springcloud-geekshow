@@ -15,6 +15,7 @@
         <module>springcloud-consumer-order</module>
         <module>springcloud-consumer-order-zk</module>
         <module>springcloud-consumer-order-consul</module>
+        <module>springcloud-consumer-order-ribbon</module>
         <module>springcloud-api-commons</module>
         <module>springcloud-eureka-server</module>
         <module>springcloud-eureka-server2</module>
