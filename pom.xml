@@ -12,11 +12,13 @@
         <module>springcloud-provider-payment2</module>
         <module>springcloud-provider-payment4</module>
         <module>springcloud-provider-payment6</module>
+        <module>springcloud-provider-payment-hystrix</module>
         <module>springcloud-consumer-order</module>
         <module>springcloud-consumer-order-zk</module>
         <module>springcloud-consumer-order-consul</module>
         <module>springcloud-consumer-order-ribbon</module>
         <module>springcloud-consumer-order-feign</module>
+        <module>springcloud-consumer-order-hystrix</module>
         <module>springcloud-api-commons</module>
         <module>springcloud-eureka-server</module>
         <module>springcloud-eureka-server2</module>
