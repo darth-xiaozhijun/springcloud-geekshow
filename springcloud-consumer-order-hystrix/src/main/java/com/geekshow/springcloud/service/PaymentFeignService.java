@@ -2,6 +2,7 @@ package com.geekshow.springcloud.service;
 
 import com.geekshow.springcloud.entities.CommonResult;
 import com.geekshow.springcloud.entities.Payment;
+import com.geekshow.springcloud.service.service.impl.PaymentFeignServiceImpl;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
@@ -9,7 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 @Component
-@FeignClient(value = "SPRINGCLOUD-PROVIDER-PAYMENT-HYSTRIX")
+@FeignClient(value = "SPRINGCLOUD-PROVIDER-PAYMENT-HYSTRIX",fallback = PaymentFeignServiceImpl.class)
 public interface PaymentFeignService {
 
     @GetMapping("/payment/create")
