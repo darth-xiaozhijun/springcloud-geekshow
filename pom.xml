@@ -19,6 +19,7 @@
         <module>springcloud-consumer-order-ribbon</module>
         <module>springcloud-consumer-order-feign</module>
         <module>springcloud-consumer-order-hystrix</module>
+        <module>springcloud-consumer-order-hystrix-dashboard</module>
         <module>springcloud-api-commons</module>
         <module>springcloud-eureka-server</module>
         <module>springcloud-eureka-server2</module>
