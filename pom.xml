@@ -23,6 +23,7 @@
         <module>springcloud-api-commons</module>
         <module>springcloud-eureka-server</module>
         <module>springcloud-eureka-server2</module>
+        <module>springcloud-gateway</module>
     </modules>
     <dependencies>
         <dependency>
