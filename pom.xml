@@ -26,6 +26,7 @@
         <module>springcloud-gateway</module>
         <module>springcloud-geekshow-config</module>
         <module>springcloud-geekshow-config-client</module>
+        <module>springcloud-geekshow-config-client2</module>
     </modules>
     <dependencies>
         <dependency>
