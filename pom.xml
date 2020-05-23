@@ -24,6 +24,8 @@
         <module>springcloud-eureka-server</module>
         <module>springcloud-eureka-server2</module>
         <module>springcloud-gateway</module>
+        <module>springcloud-geekshow-config</module>
+        <module>springcloud-geekshow-config-client</module>
     </modules>
     <dependencies>
         <dependency>
