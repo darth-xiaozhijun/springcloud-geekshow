@@ -27,6 +27,9 @@
         <module>springcloud-geekshow-config</module>
         <module>springcloud-geekshow-config-client</module>
         <module>springcloud-geekshow-config-client2</module>
+        <module>springcloud-stream-rabbitmq-provider</module>
+        <module>springcloud-stream-rabbitmq-consumer</module>
+        <module>springcloud-stream-rabbitmq-consumer2</module>
     </modules>
     <dependencies>
         <dependency>
