@@ -50,24 +50,33 @@ public class PaymentController {
     }
 
     @GetMapping(value = "/payment/discovery")
-    public Object discovery()
-    {
+    public Object discovery() {
         List<String> services = discoveryClient.getServices();
         for (String element : services) {
-            log.info("*****element: "+element);
+            log.info("*****element: " + element);
         }
 
         List<ServiceInstance> instances = discoveryClient.getInstances("SPRINGCLOUD-PROVIDER-PAYMENT");
         for (ServiceInstance instance : instances) {
-            log.info(instance.getServiceId()+"\t"+instance.getHost()+"\t"+instance.getPort()+"\t"+instance.getUri());
+            log.info(instance.getServiceId() + "\t" + instance.getHost() + "\t" + instance.getPort() + "\t" + instance.getUri());
         }
 
         return this.discoveryClient;
     }
 
     @GetMapping(value = "/payment/feign/timeout")
-    public String paymentFeignTimeout(){
-        try { TimeUnit.SECONDS.sleep(3); }catch (Exception e) {e.printStackTrace();}
+    public String paymentFeignTimeout() {
+        try {
+            TimeUnit.SECONDS.sleep(3);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return serverPort;
     }
+
+    @GetMapping("/payment/zipkin")
+    public String paymentZipkin() {
+        return "hi ,i'am paymentzipkin server fall back，welcome to atguigu，O(∩_∩)O哈哈~";
+    }
+
 }
