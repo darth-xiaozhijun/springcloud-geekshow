@@ -33,6 +33,7 @@
         <module>springcloud-alibaba-provider-payment</module>
         <module>springcloud-alibaba-provider-payment2</module>
         <module>springcloud-alibaba-consumer-order</module>
+        <module>springcloud-alibaba-config-client</module>
     </modules>
     <dependencies>
         <dependency>

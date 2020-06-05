@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-api-commons" />
+        <module name="springcloud-provider-payment4" />
+        <module name="springcloud-provider-payment2" />
+        <module name="springcloud-geekshow-config-client" />
+        <module name="springcloud-eureka-server2" />
+        <module name="springcloud-consumer-order" />
+        <module name="springcloud-eureka-server" />
+        <module name="springcloud-alibaba-consumer-order" />
+        <module name="springcloud-gateway" />
+        <module name="springcloud-provider-payment-hystrix" />
+        <module name="springcloud-stream-rabbitmq-consumer2" />
+        <module name="springcloud-consumer-order-zk" />
+        <module name="springcloud-consumer-order-feign" />
+        <module name="springcloud-stream-rabbitmq-provider" />
+        <module name="springcloud-geekshow-config" />
+        <module name="springcloud-provider-payment" />
+        <module name="springcloud-consumer-order-consul" />
+        <module name="springcloud-consumer-order-hystrix-dashboard" />
+        <module name="springcloud-consumer-order-ribbon" />
+        <module name="springcloud-consumer-order-hystrix" />
+        <module name="springcloud-alibaba-provider-payment" />
+        <module name="springcloud-stream-rabbitmq-consumer" />
+        <module name="springcloud-alibaba-config-client" />
+        <module name="springcloud-alibaba-provider-payment2" />
+        <module name="springcloud-geekshow-config-client2" />
+        <module name="springcloud-provider-payment6" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud-alibaba-provider-payment (1)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
