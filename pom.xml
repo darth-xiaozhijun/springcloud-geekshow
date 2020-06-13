@@ -34,6 +34,7 @@
         <module>springcloud-alibaba-provider-payment2</module>
         <module>springcloud-alibaba-consumer-order</module>
         <module>springcloud-alibaba-config-client</module>
+        <module>springcloud-alibaba-sentinel-service</module>
     </modules>
     <dependencies>
         <dependency>
