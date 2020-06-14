@@ -32,7 +32,10 @@
         <module>springcloud-stream-rabbitmq-consumer2</module>
         <module>springcloud-alibaba-provider-payment</module>
         <module>springcloud-alibaba-provider-payment2</module>
+        <module>springcloud-alibaba-provider-payment3</module>
+        <module>springcloud-alibaba-provider-payment4</module>
         <module>springcloud-alibaba-consumer-order</module>
+        <module>springcloud-alibaba-consumer-order2</module>
         <module>springcloud-alibaba-config-client</module>
         <module>springcloud-alibaba-sentinel-service</module>
     </modules>
