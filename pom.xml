@@ -38,6 +38,9 @@
         <module>springcloud-alibaba-consumer-order2</module>
         <module>springcloud-alibaba-config-client</module>
         <module>springcloud-alibaba-sentinel-service</module>
+        <module>springcloud-alibaba-seata-order</module>
+        <module>springcloud-alibaba-seata-storage</module>
+        <module>springcloud-alibaba-seata-account</module>
     </modules>
     <dependencies>
         <dependency>
